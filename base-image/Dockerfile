@@ -1,7 +1,7 @@
 FROM pangeo/pangeo-notebook:2025.01.24
 
 ENV DATA_GID=16301 \
-    DATA_GROUP=datamod
+    DATA_GROUP=certainty
 
 USER root
 
