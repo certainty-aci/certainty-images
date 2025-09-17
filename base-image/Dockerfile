@@ -1,7 +1,7 @@
-FROM pangeo/pangeo-notebook:2025.01.24
+FROM pangeo/pangeo-notebook:2025.08.14
 
-ENV DATA_GID=16301 \
-    DATA_GROUP=certainty
+ENV DATA_GID=10579 \
+    DATA_GROUP=pr-certainty
 
 USER root
 
